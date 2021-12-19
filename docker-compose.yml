@@ -28,4 +28,6 @@ services:
       - redis
 
   redis:
-    image: redis:6-alpine
+    image: redis:alpine
+    ports:
+      - 6379:6379
